@@ -1,0 +1,120 @@
+body{
+    background-color: #559184;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #332f2f;
+    color: #fff;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.contact-details {
+    text-align: left;
+    flex: 1; /* Allows the contact details to take up the remaining space */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.profile-pic {
+    flex:1;
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust the spacing between image and contact details */
+    display: flex;
+    align-items: right;
+    padding: 20px;
+}
+
+.profile-pic img {
+    text-align: right;
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: auto;
+}
+
+.about{
+    flex:4;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    font-family: Georgia, Times, serif;
+    color: brown;
+}
+
+/* Example section styles */
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+}    
+
+.section-heading{
+    color: rgb(53, 9, 46);
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.skills-flex{
+    display: flex;
+    padding-right: 600px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.prglang-font{
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Styles for the navigation arrow */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF; /* Adjust the background color as needed */
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 999; /* Ensure it appears above other content */
+}
+
+.scroll-to-top a {
+    text-decoration: none;
+    color: inherit;
+}
